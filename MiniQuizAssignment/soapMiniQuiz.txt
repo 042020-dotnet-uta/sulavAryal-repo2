@@ -1,0 +1,31 @@
+1. Which one of the following statement is not true for SOAP. 
+a. A SOAP message can carry more than one fault block. (ans: only one) 
+b. Fault is an optional part of a SOAP message.
+c. For HTTP binding, a successful response is linked to the 200 to 299 range of status code
+d. SOAP Fault is linked to the 500 to 599 range of status codes.
+
+2.Which of the following is correct about UDDI?
+
+a. UDDI is an EeXtensible Markup Language based standard for describing, publishing, and finding web services.
+b. UDDI is a specification for a distributed registry of web services.
+c. UDDI is platform independent, open framework.
+d. UDDI business registration consists of three components white, yellow and blue pages.(ans:white,yellow and green))
+ 
+3. Which of the following SOAP elements contains the message ? 
+a.  <SOAP-ENV:Envelope> </SOAP-ENV:Envelope>
+b.  <SOAP-ENV:Content> </SOAP-ENV:Content>
+c.  <SOAP-ENV:Message> </SOAP-ENV:Message>
+d.  <SOAP-ENV:Body> </SOAP-ENV:Body> (ans)
+
+4. Which organization dictates the SOAP Messaging Framework 2.1? 
+a. Microsoft
+b. World Wide Web Consortium (W3C) (ans)
+c. Web Hypertext Application Technology Working Group (WHATWG)
+d. IEEE 
+
+5. Which of the following is true for SOAP syntax.
+
+a. A SOAP message can be encoded using JSON
+b. A SOAP message can use the SOAP body namespace
+c. A SOAP message must contain a DTD reference
+d. A SOAP message must not contain XML Processing Instructions (ans)

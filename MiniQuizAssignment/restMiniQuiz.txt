@@ -1,0 +1,31 @@
+1. Which one of the following is not one of the six constrains of REST? 
+a. Univeral interface (ans)
+b. Statelessness
+c. Client-Server
+d. Cacheable 
+
+2. RESTful Web Services are
+a. Stateful (ans)
+b. Stateless
+c. Multi-state
+d. Http Status. 
+
+3. Which of the following statements is not the point to
+consider when designing a resource representation format in RESTful services.   
+a. Understandability
+b. Completeness
+c. Linkablity
+d. Security (ans)
+
+4. Pick the odd one out. 
+Http request generally consists of 
+a. HTTP verb
+b. header
+c. status code (ans)
+d. message body
+
+5.If you follow REST principles in designing API, which HTTP verb is idempotent. 
+a. GET
+b. PUT
+c. POST (ans)
+d. TRACE
