@@ -1,0 +1,50 @@
+1. What does Kubernetes coordinate? 
+a. It coordinates highly available cluster of computers that are connected to work as a         single unit. (ans)
+b. It coordinates highly available cluster of IOT's 
+   that are connected over cloud and dockerized to work as a single unit. 
+c. It coordinates linux web servers with high availablity connected
+   together to work as a single unit. 
+d. It orchestrates dockerized red hat linux server containers that are connected to work as     a single unit.  
+   link: https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-      intro/
+
+2. What are the two kinds of shared resources pods provide for their constituent containers: 
+a. memory and storage
+b. cpu and networking
+c. memory and cpu 
+d. networking and storage (ans)
+   link: https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/#understanding-pods
+
+3. Which one is not a kubectl command ?
+a. kubectl get
+b. kubectl describe
+c. kubectl run (ans)
+d. kubectl logs
+   link: https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/
+
+4. Services can be exposed in different ways by specifying a type in the ServiceSpec. Which    one amongst these types is a default type. 
+a. LoadBalancer
+b. ClusterIP (ans)
+c. NodePort
+d. ExternalName
+   link: https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
+
+5. Spot the incorrect statement. 
+a. Services will monitor continuously the running Pods using endpoints, to ensure the    traffic is sent only to available Pods.
+b. Services have an integrated load-balancer that will distribute network traffic to all    Pods of an exposed Deployment. 
+c. Scaling to zero is not possible, any attempt will terminate all Pods of the specified    Deployment. (ans)
+d. Scaling out a Deployment will ensure new Pods are created and scheduled to Nodes with    available resources.
+   link: https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/
+
+6. What amongst the following is not an action allowed by rolling updates in kubernetes. 
+a. Promote an application from one environment to another
+b. Rollback to previous versions
+c. Continuous Integration and Continuous Delivery of applications with minimum downtime    (ans)
+d. Continuous Integration and Continuous Delivery of applications with zero downtime 
+   link: https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/ 
+
+7. What are the four basic bootstrapping operations for working with your cluster 
+a. start, pause, stop, delete
+b. start, stop, delete, run
+c. run, stop, pause, delete
+d. start, stop, status, delete (ans)
+   pdf : page 20
